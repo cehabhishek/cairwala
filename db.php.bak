@@ -1,0 +1,5 @@
+<?php  
+//$conn=mysqli_connect("localhost","kitxcfra_nvds","[Rt?takt;SFG","kitxcfra_nvds") or die("connection error");
+$conn=mysqli_connect("localhost","mimanshan_user","@F&EcyKRmg1Y","mimanshan_db") or die("connection error");
+//$conn=mysqli_connect("localhost","mimanshan_users","aT2w0ea&LQtd","mimanshan_dbs") or die("connection error");
+?>

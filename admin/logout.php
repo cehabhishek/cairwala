@@ -1,0 +1,9 @@
+<?php
+ob_start();
+session_start();
+unset($_SESSION['admin_login']);
+unset($_SESSION['reg_id']);
+unset($_SESSION['Venor_name']);
+session_destroy();
+header("location:index.php");
+?>
